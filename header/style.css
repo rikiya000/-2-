@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+.wrap {
+    max-width: 960px;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    align-items: center;
+}
+.menu-item li {
+    padding: 10px 15px;
+    background: #000;
+    color: #fff;
+    border-left: 1px solid #fff;
+    box-sizing: border-box;
+    width: 20%;
+    text-align: center;
+}
+.title {
+    margin-right: auto;
+}
+
+.menu-item {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
